@@ -19,6 +19,9 @@
 		7E9F20FE18478C370012AAE5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E9F20E618478C370012AAE5 /* UIKit.framework */; };
 		7E9F210618478C380012AAE5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7E9F210418478C380012AAE5 /* InfoPlist.strings */; };
 		7E9F210818478C380012AAE5 /* Jenny_and_Sierra_s_Final_ProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E9F210718478C380012AAE5 /* Jenny_and_Sierra_s_Final_ProjectTests.m */; };
+		7E9F21121848E0680012AAE5 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E9F21111848E0680012AAE5 /* Storyboard.storyboard */; };
+		7E9FA16118493A8E0032A841 /* XYZSelectFromContactsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E9FA16018493A8E0032A841 /* XYZSelectFromContactsViewController.m */; };
+		7E9FA164184940D00032A841 /* XYZBlacklistViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E9FA163184940D00032A841 /* XYZBlacklistViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +51,11 @@
 		7E9F210318478C380012AAE5 /* Jenny and Sierra's Final ProjectTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Jenny and Sierra's Final ProjectTests-Info.plist"; sourceTree = "<group>"; };
 		7E9F210518478C380012AAE5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7E9F210718478C380012AAE5 /* Jenny_and_Sierra_s_Final_ProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Jenny_and_Sierra_s_Final_ProjectTests.m; sourceTree = "<group>"; };
+		7E9F21111848E0680012AAE5 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		7E9FA15F18493A8E0032A841 /* XYZSelectFromContactsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYZSelectFromContactsViewController.h; sourceTree = "<group>"; };
+		7E9FA16018493A8E0032A841 /* XYZSelectFromContactsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYZSelectFromContactsViewController.m; sourceTree = "<group>"; };
+		7E9FA162184940D00032A841 /* XYZBlacklistViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYZBlacklistViewController.h; sourceTree = "<group>"; };
+		7E9FA163184940D00032A841 /* XYZBlacklistViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYZBlacklistViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +118,11 @@
 				7E9F20F118478C370012AAE5 /* XYZAppDelegate.h */,
 				7E9F20F218478C370012AAE5 /* XYZAppDelegate.m */,
 				7E9F20F418478C370012AAE5 /* Images.xcassets */,
+				7E9F21111848E0680012AAE5 /* Storyboard.storyboard */,
+				7E9FA162184940D00032A841 /* XYZBlacklistViewController.h */,
+				7E9FA163184940D00032A841 /* XYZBlacklistViewController.m */,
+				7E9FA15F18493A8E0032A841 /* XYZSelectFromContactsViewController.h */,
+				7E9FA16018493A8E0032A841 /* XYZSelectFromContactsViewController.m */,
 				7E9F20E918478C370012AAE5 /* Supporting Files */,
 			);
 			path = "Jenny and Sierra's Final Project";
@@ -222,6 +235,7 @@
 			files = (
 				7E9F20ED18478C370012AAE5 /* InfoPlist.strings in Resources */,
 				7E9F20F518478C370012AAE5 /* Images.xcassets in Resources */,
+				7E9F21121848E0680012AAE5 /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,7 +254,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E9FA16118493A8E0032A841 /* XYZSelectFromContactsViewController.m in Sources */,
 				7E9F20F318478C370012AAE5 /* XYZAppDelegate.m in Sources */,
+				7E9FA164184940D00032A841 /* XYZBlacklistViewController.m in Sources */,
 				7E9F20EF18478C370012AAE5 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -442,6 +458,7 @@
 				7E9F210D18478C380012AAE5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7E9F210E18478C380012AAE5 /* Build configuration list for PBXNativeTarget "Jenny and Sierra's Final ProjectTests" */ = {
 			isa = XCConfigurationList;
@@ -450,6 +467,7 @@
 				7E9F211018478C380012AAE5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
