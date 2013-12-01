@@ -1,8 +1,8 @@
 //
-//  XYZBlacklistViewController.h
+//  XYZPeoplePickViewController.h
 //  Jenny and Sierra's Final Project
 //
-//  Created by Jenny Gathright on 11/29/13.
+//  Created by Sierra Fan on 12/1/13.
 //  Copyright (c) 2013 Jenny Gathright. All rights reserved.
 //
 
@@ -12,10 +12,10 @@
 
 #import <AddressBook/AddressBook.h>
 
-@interface XYZBlacklistViewController : UITableViewController
+@interface XYZPeoplePickViewController : ABPeoplePickerNavigationController
     <UINavigationControllerDelegate,ABPeoplePickerNavigationControllerDelegate>
 
-@property (weak, nonatomic) IBOutlet UIBarButtonItem *goButton;
+@property (weak, nonatomic) IBOutlet UIButton *goButton;
 
 -(IBAction) pushedGo:(id)sender;
 

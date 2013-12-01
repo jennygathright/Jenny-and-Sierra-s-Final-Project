@@ -1,53 +1,18 @@
 //
-//  XYZBlacklistViewController.m
+//  XYZSobrietyTestViewController.m
 //  Jenny and Sierra's Final Project
 //
-//  Created by Jenny Gathright on 11/29/13.
+//  Created by Sierra Fan on 12/1/13.
 //  Copyright (c) 2013 Jenny Gathright. All rights reserved.
 //
 
-#import "XYZBlacklistViewController.h"
+#import "XYZSobrietyTestViewController.h"
 
-@interface XYZBlacklistViewController ()
+@interface XYZSobrietyTestViewController ()
 
 @end
 
-@implementation XYZBlacklistViewController
-
-- (IBAction)unwindToHome:(UIStoryboardSegue *)segue
-{
-    // to do link to dest
-}
-
--(IBAction) pushedGo:(id)sender {
-    
-    ABPeoplePickerNavigationController *peoplePicker = [[ABPeoplePickerNavigationController alloc] init];
-    peoplePicker.peoplePickerDelegate = self;
-    [self presentViewController:peoplePicker animated:YES completion:nil];
-}
-
-- (BOOL)peoplePickerNavigationController:
-(ABPeoplePickerNavigationController *)picker
-      shouldContinueAfterSelectingPerson:(ABRecordRef)person
-{
-    [self dismissViewControllerAnimated:YES completion:nil];
-    return NO;
-}
-
-- (BOOL)peoplePickerNavigationController:
-(ABPeoplePickerNavigationController *)picker
-      shouldContinueAfterSelectingPerson:(ABRecordRef)person
-                                property:(ABPropertyID)property
-                              identifier:(ABMultiValueIdentifier)identifier
-{
-    return NO;
-}
-
-- (void)peoplePickerNavigationControllerDidCancel:
-(ABPeoplePickerNavigationController *)picker
-{
-    [self dismissViewControllerAnimated:YES completion:nil];
-}
+@implementation XYZSobrietyTestViewController
 
 - (id)initWithStyle:(UITableViewStyle)style
 {
