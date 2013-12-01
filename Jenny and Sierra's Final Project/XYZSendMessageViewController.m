@@ -14,6 +14,12 @@
 
 @implementation XYZSendMessageViewController
 
+-(IBAction) pushedSend:(id)sender{
+    NSString *stringURL = @"sms: ";
+    NSURL *url = [NSURL URLWithString:stringURL];
+    [[UIApplication sharedApplication] openURL:url];
+
+}
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];

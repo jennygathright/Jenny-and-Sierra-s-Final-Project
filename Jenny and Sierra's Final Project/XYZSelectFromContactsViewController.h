@@ -2,7 +2,7 @@
 //  XYZSelectFromContactsViewController.h
 //  Jenny and Sierra's Final Project
 //
-//  Created by Jenny Gathright on 11/29/13.
+//  Created by Sierra Fan on 12/1/13.
 //  Copyright (c) 2013 Jenny Gathright. All rights reserved.
 //
 
@@ -12,7 +12,8 @@
 
 #import <AddressBookUI/AddressBookUI.h>
 
-@interface XYZSelectFromContactsViewController : UITableViewController
+@interface XYZSelectFromContactsViewController : UIViewController  <UINavigationControllerDelegate,ABPeoplePickerNavigationControllerDelegate>
 
 @end
+
 
