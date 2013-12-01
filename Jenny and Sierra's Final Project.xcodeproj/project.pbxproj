@@ -20,8 +20,9 @@
 		7E9F210618478C380012AAE5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7E9F210418478C380012AAE5 /* InfoPlist.strings */; };
 		7E9F210818478C380012AAE5 /* Jenny_and_Sierra_s_Final_ProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E9F210718478C380012AAE5 /* Jenny_and_Sierra_s_Final_ProjectTests.m */; };
 		7E9F21121848E0680012AAE5 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E9F21111848E0680012AAE5 /* Storyboard.storyboard */; };
-		7E9FA16118493A8E0032A841 /* XYZSelectFromContactsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E9FA16018493A8E0032A841 /* XYZSelectFromContactsViewController.m */; };
 		7E9FA164184940D00032A841 /* XYZBlacklistViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E9FA163184940D00032A841 /* XYZBlacklistViewController.m */; };
+		D69C2CBB184BBFA7008B3081 /* XYZSendMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D69C2CBA184BBFA7008B3081 /* XYZSendMessageViewController.m */; };
+		D69C2CBE184BC021008B3081 /* XYZSelectFromContactsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D69C2CBD184BC021008B3081 /* XYZSelectFromContactsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,10 +53,12 @@
 		7E9F210518478C380012AAE5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7E9F210718478C380012AAE5 /* Jenny_and_Sierra_s_Final_ProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Jenny_and_Sierra_s_Final_ProjectTests.m; sourceTree = "<group>"; };
 		7E9F21111848E0680012AAE5 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
-		7E9FA15F18493A8E0032A841 /* XYZSelectFromContactsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYZSelectFromContactsViewController.h; sourceTree = "<group>"; };
-		7E9FA16018493A8E0032A841 /* XYZSelectFromContactsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYZSelectFromContactsViewController.m; sourceTree = "<group>"; };
 		7E9FA162184940D00032A841 /* XYZBlacklistViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYZBlacklistViewController.h; sourceTree = "<group>"; };
 		7E9FA163184940D00032A841 /* XYZBlacklistViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYZBlacklistViewController.m; sourceTree = "<group>"; };
+		D69C2CB9184BBFA7008B3081 /* XYZSendMessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYZSendMessageViewController.h; sourceTree = "<group>"; };
+		D69C2CBA184BBFA7008B3081 /* XYZSendMessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYZSendMessageViewController.m; sourceTree = "<group>"; };
+		D69C2CBC184BC021008B3081 /* XYZSelectFromContactsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYZSelectFromContactsViewController.h; sourceTree = "<group>"; };
+		D69C2CBD184BC021008B3081 /* XYZSelectFromContactsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYZSelectFromContactsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,10 +122,12 @@
 				7E9F20F218478C370012AAE5 /* XYZAppDelegate.m */,
 				7E9F20F418478C370012AAE5 /* Images.xcassets */,
 				7E9F21111848E0680012AAE5 /* Storyboard.storyboard */,
+				D69C2CBC184BC021008B3081 /* XYZSelectFromContactsViewController.h */,
+				D69C2CBD184BC021008B3081 /* XYZSelectFromContactsViewController.m */,
+				D69C2CB9184BBFA7008B3081 /* XYZSendMessageViewController.h */,
+				D69C2CBA184BBFA7008B3081 /* XYZSendMessageViewController.m */,
 				7E9FA162184940D00032A841 /* XYZBlacklistViewController.h */,
 				7E9FA163184940D00032A841 /* XYZBlacklistViewController.m */,
-				7E9FA15F18493A8E0032A841 /* XYZSelectFromContactsViewController.h */,
-				7E9FA16018493A8E0032A841 /* XYZSelectFromContactsViewController.m */,
 				7E9F20E918478C370012AAE5 /* Supporting Files */,
 			);
 			path = "Jenny and Sierra's Final Project";
@@ -254,10 +259,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7E9FA16118493A8E0032A841 /* XYZSelectFromContactsViewController.m in Sources */,
+				D69C2CBE184BC021008B3081 /* XYZSelectFromContactsViewController.m in Sources */,
 				7E9F20F318478C370012AAE5 /* XYZAppDelegate.m in Sources */,
 				7E9FA164184940D00032A841 /* XYZBlacklistViewController.m in Sources */,
 				7E9F20EF18478C370012AAE5 /* main.m in Sources */,
+				D69C2CBB184BBFA7008B3081 /* XYZSendMessageViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
