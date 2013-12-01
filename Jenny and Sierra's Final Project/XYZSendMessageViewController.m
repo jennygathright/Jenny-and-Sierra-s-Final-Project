@@ -1,23 +1,18 @@
 //
-//  XYZSelectFromContactsViewController.m
+//  XYZSendMessageViewController.m
 //  Jenny and Sierra's Final Project
 //
 //  Created by Sierra Fan on 12/1/13.
 //  Copyright (c) 2013 Jenny Gathright. All rights reserved.
 //
 
-#import "XYZSelectFromContactsViewController.h"
+#import "XYZSendMessageViewController.h"
 
-@interface XYZSelectFromContactsViewController ()
+@interface XYZSendMessageViewController ()
 
 @end
 
-@implementation XYZSelectFromContactsViewController
-
-- (IBAction)unwindToBlackList:(UIStoryboardSegue *)segue
-{
-    // to do link to dest
-}
+@implementation XYZSendMessageViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
