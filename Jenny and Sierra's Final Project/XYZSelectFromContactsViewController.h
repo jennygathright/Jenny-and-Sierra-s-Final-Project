@@ -12,6 +12,8 @@
 
 #import <AddressBookUI/AddressBookUI.h>
 
-@interface XYZSelectFromContactsViewController : UIViewController
+@interface XYZSelectFromContactsViewController : UIViewController  <UINavigationControllerDelegate,ABPeoplePickerNavigationControllerDelegate>
 
 @end
+
+

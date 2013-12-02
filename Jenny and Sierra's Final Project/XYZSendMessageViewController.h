@@ -8,6 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
+#import <MessageUI/MessageUI.h>
+
+
+
 @interface XYZSendMessageViewController : UIViewController
+
+@property (weak, nonatomic) IBOutlet UIButton *sendButton;
+
+-(IBAction) pushedSend:(id)sender;
 
 @end
