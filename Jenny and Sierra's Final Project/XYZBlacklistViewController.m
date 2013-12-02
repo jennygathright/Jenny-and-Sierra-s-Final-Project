@@ -51,23 +51,32 @@
 {
 #warning Potentially incomplete method implementation.
     // Return the number of sections.
-    return 0;
+    return 1;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
 #warning Incomplete method implementation.
     // Return the number of rows in the section.
-    return 0;
+    return 1;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    static NSString *CellIdentifier = @"Cell";
+    static NSString *CellIdentifier = @"ListPrototypeCell";
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
     
     // Configure the cell...
     
+    // get the group with the record ID that's the same as the blacklist-- fix this
+    CFErrorRef error = nil;
+    ABAddressBookRef AddressBook = ABAddressBookCreateWithOptions(NULL, &error);
+    ABRecordRef Blacklist = ABAddressBookGetGroupWithRecordID(AddressBook, -1);
+    
+    NSString *name = (__bridge NSString *)(ABRecordCopyValue(Blacklist, kABPersonPhoneProperty));
+    NSLog(@"name %@", name);
+    
+    cell.textLabel.text = name;
     return cell;
 }
 
