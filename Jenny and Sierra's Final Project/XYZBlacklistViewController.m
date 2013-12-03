@@ -19,6 +19,36 @@
     // to do link to dest
 }
 
+-(IBAction) pushedGo:(id)sender {
+    
+    ABPeoplePickerNavigationController *peoplePicker = [[ABPeoplePickerNavigationController alloc] init];
+    peoplePicker.peoplePickerDelegate = self;
+    [self presentViewController:peoplePicker animated:YES completion:nil];
+}
+
+- (BOOL)peoplePickerNavigationController:
+(ABPeoplePickerNavigationController *)picker
+      shouldContinueAfterSelectingPerson:(ABRecordRef)person
+{
+    [self dismissViewControllerAnimated:YES completion:nil];
+    return NO;
+}
+
+- (BOOL)peoplePickerNavigationController:
+(ABPeoplePickerNavigationController *)picker
+      shouldContinueAfterSelectingPerson:(ABRecordRef)person
+                                property:(ABPropertyID)property
+                              identifier:(ABMultiValueIdentifier)identifier
+{
+    return NO;
+}
+
+- (void)peoplePickerNavigationControllerDidCancel:
+(ABPeoplePickerNavigationController *)picker
+{
+    [self dismissViewControllerAnimated:YES completion:nil];
+}
+
 - (id)initWithStyle:(UITableViewStyle)style
 {
     self = [super initWithStyle:style];

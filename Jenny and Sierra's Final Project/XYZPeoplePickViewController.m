@@ -1,18 +1,18 @@
 //
-//  XYZSendMessageViewController.m
+//  XYZPeoplePickViewController.m
 //  Jenny and Sierra's Final Project
 //
 //  Created by Sierra Fan on 12/1/13.
 //  Copyright (c) 2013 Jenny Gathright. All rights reserved.
 //
 
-#import "XYZSendMessageViewController.h"
+#import "XYZPeoplePickViewController.h"
 
-@interface XYZSendMessageViewController ()
+@interface XYZPeoplePickViewController ()
 
 @end
 
-@implementation XYZSendMessageViewController
+@implementation XYZPeoplePickViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {

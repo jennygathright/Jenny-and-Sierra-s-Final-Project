@@ -5,19 +5,31 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
+<<<<<<< HEAD
 	<string>4B500CF4-448B-42B9-ACB4-FDAEF11C5CEB</string>
+=======
+	<string>2EA39161-AA4A-47EB-9F6C-52C969936196</string>
+>>>>>>> 8b3c02b667ad526bef3afecbaeee578f7c8a03f3
 	<key>IDESourceControlProjectName</key>
 	<string>Jenny and Sierra's Final Project</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
+<<<<<<< HEAD
 		<key>E191B89E-758C-4400-B07F-844E6AC94F29</key>
+=======
+		<key>20AEB872-4CC5-4457-B434-1FEA4AD2774D</key>
+>>>>>>> 8b3c02b667ad526bef3afecbaeee578f7c8a03f3
 		<string>https://github.com/jennygathright/Jenny-and-Sierra-s-Final-Project.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>Jenny and Sierra's Final Project.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
+<<<<<<< HEAD
 		<key>E191B89E-758C-4400-B07F-844E6AC94F29</key>
+=======
+		<key>20AEB872-4CC5-4457-B434-1FEA4AD2774D</key>
+>>>>>>> 8b3c02b667ad526bef3afecbaeee578f7c8a03f3
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
@@ -25,16 +37,26 @@
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
+<<<<<<< HEAD
 	<string>E191B89E-758C-4400-B07F-844E6AC94F29</string>
+=======
+	<string>20AEB872-4CC5-4457-B434-1FEA4AD2774D</string>
+>>>>>>> 8b3c02b667ad526bef3afecbaeee578f7c8a03f3
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
+<<<<<<< HEAD
 			<string>E191B89E-758C-4400-B07F-844E6AC94F29</string>
 			<key>IDESourceControlWCCName</key>
 			<string>Jenny and Sierra's Final Project</string>
+=======
+			<string>20AEB872-4CC5-4457-B434-1FEA4AD2774D</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Jenny-and-Sierra-s-Final-Project</string>
+>>>>>>> 8b3c02b667ad526bef3afecbaeee578f7c8a03f3
 		</dict>
 	</array>
 </dict>

@@ -1,5 +1,5 @@
 //
-//  XYZSendMessageViewController.h
+//  XYZSobrietyTestViewController.h
 //  Jenny and Sierra's Final Project
 //
 //  Created by Sierra Fan on 12/1/13.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface XYZSendMessageViewController : UIViewController
+@interface XYZSobrietyTestViewController : UITableViewController
 
 @end

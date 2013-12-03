@@ -1,41 +1,18 @@
 //
-//  XYZSelectFromContactsViewController.m
+//  XYZSobrietyTestViewController.m
 //  Jenny and Sierra's Final Project
 //
-//  Created by Jenny Gathright on 11/29/13.
+//  Created by Sierra Fan on 12/1/13.
 //  Copyright (c) 2013 Jenny Gathright. All rights reserved.
 //
 
-#import "XYZSelectFromContactsViewController.h"
+#import "XYZSobrietyTestViewController.h"
 
-@interface XYZSelectFromContactsViewController ()
+@interface XYZSobrietyTestViewController ()
 
 @end
 
-@implementation XYZSelectFromContactsViewController
-
-- (IBAction)unwindToList:(UIStoryboardSegue *)segue
-{
-<<<<<<< HEAD
-    // if the person pressed cancel, don't save changes and go to blacklist
-    // if the person pressed done, DO save changes and go to blacklist
-}
-
-
-- (void)awakeFromNib
-=======
-    
-}
-
-- (IBAction)showPicker:(id)sender
->>>>>>> 8b3c02b667ad526bef3afecbaeee578f7c8a03f3
-{
-    ABPeoplePickerNavigationController *picker =
-    [[ABPeoplePickerNavigationController alloc] init];
-    picker.peoplePickerDelegate = self;
-    
-    [self presentModalViewController:picker animated:YES];
-}
+@implementation XYZSobrietyTestViewController
 
 - (id)initWithStyle:(UITableViewStyle)style
 {
@@ -57,61 +34,6 @@
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
 }
 
-<<<<<<< HEAD
-/*- (BOOL)peoplePickerNavigationController:
-(ABPeoplePickerNavigationController *)picker
-      shouldContinueAfterSelectingPerson:(ABRecordRef)person
-{
-    [self presentViewController:picker animated:YES completion:nil];
-    return NO;
-}*/
-
-
-- (BOOL)peoplePickerNavigationController:
-(ABPeoplePickerNavigationController *)picker
-      shouldContinueAfterSelectingPerson:(ABRecordRef)person
-                                //property:(ABPropertyID)property
-                              //identifier:(ABMultiValueIdentifier)identifier
-{
-    // TO DO: code for saving the person's contact info
-    // add a check for whether there is a telephone number saved there
-    ABMultiValueRef number = ABRecordCopyValue(person, kABPersonPhoneProperty);
-    ABMultiValueRef FirstName = ABRecordCopyValue(person, kABPersonFirstNameProperty);
-    ABMultiValueRef LastName = ABRecordCopyValue(person, kABPersonLastNameProprty);
-    NSMutableString *phoneNumber = (__bridge NSMutableString *)ABMultiValueCopyValueAtIndex(number, 0);
-    NSMutableString *firstName = (__bridge NSMutableString *)ABMultiValueCopyValueAtIndex(FirstName, 0);
-    NSMutableString *lastName = (__bridge NSMutableString *)ABMultiValueCopyValueAtIndex(LastName, 0);
-    
-    NSLog(@"phoneNumber %@", phoneNumber);
-    
-    NSMutableDictionary *Blacklist = [[NSMutableDictionary alloc]init];
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    [self presentViewController:picker animated:YES completion:nil];
-    
-    
-    return NO;
-}
-
-
-
-
-
-
-- (void)peoplePickerNavigationControllerDidCancel:
-(ABPeoplePickerNavigationController *)picker
-=======
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
@@ -128,7 +50,6 @@
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
->>>>>>> 8b3c02b667ad526bef3afecbaeee578f7c8a03f3
 {
 #warning Incomplete method implementation.
     // Return the number of rows in the section.
