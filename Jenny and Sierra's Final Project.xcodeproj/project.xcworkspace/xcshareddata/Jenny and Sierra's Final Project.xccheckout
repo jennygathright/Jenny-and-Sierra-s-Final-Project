@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>4B500CF4-448B-42B9-ACB4-FDAEF11C5CEB</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Jenny and Sierra's Final Project</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>E191B89E-758C-4400-B07F-844E6AC94F29</key>
+		<string>https://github.com/jennygathright/Jenny-and-Sierra-s-Final-Project.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Jenny and Sierra's Final Project.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>E191B89E-758C-4400-B07F-844E6AC94F29</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/jennygathright/Jenny-and-Sierra-s-Final-Project.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>E191B89E-758C-4400-B07F-844E6AC94F29</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>E191B89E-758C-4400-B07F-844E6AC94F29</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Jenny and Sierra's Final Project</string>
+		</dict>
+	</array>
+</dict>
+</plist>
