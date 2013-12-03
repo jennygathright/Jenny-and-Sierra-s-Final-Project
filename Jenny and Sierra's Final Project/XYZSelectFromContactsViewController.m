@@ -16,7 +16,8 @@
 
 - (IBAction)unwindToBlackList:(UIStoryboardSegue *)segue
 {
-    // to do link to dest
+    // if the person pressed cancel, don't save changes and go to blacklist
+    // if the person pressed done, DO save changes and go to blacklist
 }
 
 
@@ -54,29 +55,35 @@
 {
     // TO DO: code for saving the person's contact info
     // add a check for whether there is a telephone number saved there
-    ABMultiValueRef multi = ABRecordCopyValue(person, kABPersonPhoneProperty);
-    NSString *phoneNumber = (__bridge NSString *)ABMultiValueCopyValueAtIndex(multi, 0);
+    ABMultiValueRef number = ABRecordCopyValue(person, kABPersonPhoneProperty);
+    ABMultiValueRef FirstName = ABRecordCopyValue(person, kABPersonFirstNameProperty);
+    ABMultiValueRef LastName = ABRecordCopyValue(person, kABPersonLastNameProperty);
+    NSMutableString *phoneNumber = (__bridge NSMutableString *)ABMultiValueCopyValueAtIndex(number, 0);
+    NSMutableString *firstName = (__bridge NSMutableString *)ABMultiValueCopyValueAtIndex(FirstName, 0);
+    NSMutableString *lastName = (__bridge NSMutableString *)ABMultiValueCopyValueAtIndex(LastName, 0);
+    
     NSLog(@"phoneNumber %@", phoneNumber);
-    CFErrorRef error = nil;
-    ABAddressBookRef AddressBook = ABAddressBookCreateWithOptions(NULL, &error);
     
-    /*TO DO: check to see if group has already been created (this might be helpful http://stackoverflow.com/questions/8249010/objective-c-adding-a-contact-to-a-specific-group-in-the-iphone)*/
-    
-    ABRecordRef Blacklist = ABGroupCreate();
-
-    //-- add the person to the group
-    ABGroupAddMember(Blacklist, person, &error);
-    
-    //-- save the address book again
-    ABAddressBookSave(AddressBook, &error);
-
-    NSLog(@"RecordID %d", ABRecordGetRecordID(Blacklist));
+    NSMutableDictionary *Blacklist = [[NSMutableDictionary alloc]init];
     
     
-    //[self presentViewController:picker animated:YES completion:nil];
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    [self presentViewController:picker animated:YES completion:nil];
+    
     
     return NO;
 }
+
 
 
 
