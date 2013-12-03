@@ -67,6 +67,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
                         <subviews>
 <<<<<<< HEAD
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RQZ-sm-lfE">
@@ -88,6 +89,8 @@
 >>>>>>> 9304cdbe67343fe726023b897ae76d8bdade9f7c
                             </button>
                         </subviews>
+=======
+>>>>>>> parent of 9304cdb... Got the contact selector to work!
 =======
 >>>>>>> parent of 9304cdb... Got the contact selector to work!
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
